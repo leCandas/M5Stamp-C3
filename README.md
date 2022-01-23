@@ -1,9 +1,5 @@
 ## This is an example PlatformIO project for M5Stamp C3
 Internal led will change its color with each press on button.
 
-To set-up:
-you will need riscv32-esp-elf downloaded use link https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/tools/idf-tools.html#riscv32-esp-elf
-extract somewhere
-put your old package.json in to the extracted folder you can find it under "\userhome\.platformio\packages\toolchain-riscv32-esp"
-finally set the correct path in platfromio.ini
-toolchain-riscv-esp@file://[CHANGE ME!]/riscv32-esp-elf replace [CHANGE ME!] with correct path.
+Everything adjusted in platformio.ini
+Just build and upload
