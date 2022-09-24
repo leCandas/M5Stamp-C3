@@ -1,6 +1,7 @@
-## This is an example PlatformIO project for M5Stamp C3
-Internal led will change its color with each press on the button.
+## An example PlatformIO project for M5Stamp C3 using FreeRTOS tasks
 
+The internal RG led will change its color with each press on the button.
+Two FreeRTOS task used for the functionality. One to read the button presses and the other to set correct led status.
 
 Everything adjusted in platformio.ini
-Just build and upload
+Open the project, build and upload.
